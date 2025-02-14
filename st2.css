@@ -1,0 +1,82 @@
+/* ==== 全体の基本スタイル ==== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/* ==== ヘッダー ==== */
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* トップへ戻るボタン */
+header a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+header a:hover {
+    background-color: #555;
+}
+
+/* ==== メインコンテンツのスタイル ==== */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ラーメン画像のスタイル */
+main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* テキストのスタイル */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+/* ==== アクセス情報 ==== */
+h2 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Googleマップのスタイル */
+iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* ==== フッター ==== */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
